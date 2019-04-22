@@ -6,6 +6,6 @@ def line(array)
     array.each_with_index do |customer, index|
       list.push("#{index+1}. #{customer}")
     end
-    puts "The line is currently: #{current_line}"
+    puts "The line is currently: #{line}"
   end
 end
