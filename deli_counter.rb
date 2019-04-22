@@ -4,7 +4,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each_with_index do |customer, index|
-      list.push(#{index+1}. #{customer})
+      list.push("#{index+1}. #{customer}")
     end
     puts list
   end
