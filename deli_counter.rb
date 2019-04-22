@@ -17,7 +17,7 @@ def take_a_number(array, customer)
 end
 
 def now_serving(array)
-  puts "Currently serving #{array.push}."
+  puts "Currently serving #{array.pop}."
 end
   
   
