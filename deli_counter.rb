@@ -17,7 +17,9 @@ def take_a_number(array, customer)
 end
 
 def now_serving(array)
-  puts "Currently serving #{array.pop}."
+  if array.length == 0 
+    puts 
+  puts "Currently serving #{array.unshift}."
 end
   
   
