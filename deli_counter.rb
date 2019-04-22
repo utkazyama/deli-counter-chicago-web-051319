@@ -1,5 +1,9 @@
-def line(current_line)
-  if current_line.length==0 
+def line(array)
+  
+  if array.length==0 
     puts "The line is currently empty."
+  else
+    
+    puts "The line is currently:"
   end
 end
