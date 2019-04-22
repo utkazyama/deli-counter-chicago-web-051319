@@ -12,5 +12,6 @@ end
 
 
 def take_a_number(array, customer)
+  deli<<customer
   puts "Welcome, #{customer}. You are number #{array.length+1} in line."
 end
